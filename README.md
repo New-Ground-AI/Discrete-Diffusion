@@ -1,4 +1,24 @@
-# Discrete-Diffusion
+[![arXiv](https://img.shields.io/badge/arXiv-2607.13431-b31b1b)](https://arxiv.org/abs/2607.13431)
+[![Hugging Face Paper](https://img.shields.io/badge/🤗%20Paper-2607.13431-yellow)](https://huggingface.co/papers/2607.13431)
+
+# Discrete Diffusion Models: A Unified Framework from Tokenization to Generation
+
+Discrete diffusion has emerged as a compelling alternative to autoregressive generation: it enables parallel decoding and, unlike left-to-right models; it can revise earlier decisions in light of later context. But it comes with a catch that continuous diffusion never faces: in image space, the state space is fixed and Gaussian noise has an obvious geometry. In categorical space, there is no default notion of a "small perturbation."
+
+Our central thesis: the construction of the discrete state space, tokenization, is not a preprocessing detail. It is the primary design axis. It determines the topology of corruption, the difficulty of the denoising task, downstream controllability and validity, and the computational cost.
+
+Please consider to cite our survey paper if it is helpful for you:
+```bibtex
+@misc{yuan2026discrete,
+      title={Discrete Diffusion Models: A Unified Framework from Tokenization to Generation}, 
+      author={Ye Yuan and Weien Li and Rui Song and Zeyu Li and Haochen Liu and Xiangyu Kong and Zixuan Dong and Linfeng Du and Zipeng Sun and Weixu Zhang and Jiaxin Huang and Changjiang Han and Yonghan Yang and Zichen Zhao and Xiuyuan Hu and Haolun Wu and Yankai Chen and Fengran Mo and Jikun Kang and Bowei He and Philip S. Yu and Xue Liu},
+      year={2026},
+      eprint={2607.13431},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2607.13431}, 
+}
+```
 
 ## Paper Collection
 
