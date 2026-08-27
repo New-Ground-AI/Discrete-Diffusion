@@ -11,7 +11,7 @@ Please consider to cite our survey paper if it is helpful for you:
 ```bibtex
 @misc{yuan2026discrete,
       title={Discrete Diffusion Models: A Unified Framework from Tokenization to Generation}, 
-      author={Ye Yuan and Weien Li and Rui Song and Zeyu Li and Haochen Liu and Xiangyu Kong and Zixuan Dong and Linfeng Du and Zipeng Sun and Weixu Zhang and Jiaxin Huang and Changjiang Han and Yonghan Yang and Zichen Zhao and Xiuyuan Hu and Haolun Wu and Yankai Chen and Fengran Mo and Jikun Kang and Bowei He and Philip S. Yu and Xue Liu},
+      author={Ye Yuan and Weien Li and Rui Song and Zeyu Li and Haochen Liu and Xiangyu Kong and Zixuan Dong and Linfeng Du and Zipeng Sun and Weixu Zhang and Jiaxin Huang and Changjiang Han and Yonghan Yang and Zichen Zhao and Xiuyuan Hu and Haolun Wu and Yankai Chen and Fengran Mo and Jikun Kang and Bowei He and Dawn Song and Philip S. Yu and Xue Liu},
       year={2026},
       eprint={2607.13431},
       archivePrefix={arXiv},
