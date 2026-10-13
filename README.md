@@ -3,6 +3,8 @@
 
 # Discrete Diffusion Models: A Unified Framework from Tokenization to Generation
 
+See the [project overview](https://new-ground-ai.github.io/projects/discrete-diffusion/) for a summary of the survey and its resources.
+
 Discrete diffusion has emerged as a compelling alternative to autoregressive generation: it enables parallel decoding and, unlike left-to-right models; it can revise earlier decisions in light of later context. But it comes with a catch that continuous diffusion never faces: in image space, the state space is fixed and Gaussian noise has an obvious geometry. In categorical space, there is no default notion of a "small perturbation."
 
 Our central thesis: the construction of the discrete state space, tokenization, is not a preprocessing detail. It is the primary design axis. It determines the topology of corruption, the difficulty of the denoising task, downstream controllability and validity, and the computational cost.
